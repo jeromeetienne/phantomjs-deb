@@ -1,0 +1,15 @@
+Source: phantomjs
+Section: web
+Priority: extra
+Maintainer: Jerome Etienne <jerome.etienne@gmail.com>
+Build-Depends: debhelper (>= 7), python, autotools-dev, pkg-config, binutils, libqtwebkit-dev
+Standards-Version: 3.8.4
+Homepage: http://phantomjs.org/
+
+Package: phantomjs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: phantomjs - minimalistic headless WebKit-based JavaScript-driven tool
+ PhantomJS is a minimalistic, headless, WebKit-based, JavaScript-driven tool.
+ PhantomJs has native support for different web technologies: DOM handling,
+ CSS selector, JSON, Canvas, SVG, and of course JavaScript.
