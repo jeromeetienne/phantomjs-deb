@@ -6,8 +6,8 @@ To install it:
 
 phantomjs will be automatically updated when you do the usual apt-get upgrade
 
-    $ phantomjs
-    phantomjs script.js
+    $ phantomjs /usr/share/doc/phantomjs/examples/hello.js 
+    Hello, world!
 
 to install dependancies
 

@@ -39,8 +39,8 @@ build:
 	(cd $(SRC_DIR) && qmake && make)
 
 install:
-	mkdir -p $(DESTDIR)/usr/local/bin
-	cp $(SRC_DIR)/bin/* $(DESTDIR)/usr/local/bin
+	mkdir -p $(DESTDIR)/usr/bin
+	cp $(SRC_DIR)/bin/* $(DESTDIR)/usr/bin
 	mkdir -p $(DESTDIR)/usr/share/doc/phantomjs
 	cp -a $(SRC_DIR)/examples $(DESTDIR)/usr/share/doc/phantomjs
 
