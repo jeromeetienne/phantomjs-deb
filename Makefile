@@ -4,7 +4,7 @@
 # - to get the codename => $ lsb_release -c -s
 PKGNAME="phantomjs"
 VERSION="1.4.1"
-CODENAME="natty"
+CODENAME="oneiric"
 
 PWD	:= $(shell pwd)
 TMP_DIR	:= $(PWD)/tmp
