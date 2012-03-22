@@ -13,3 +13,6 @@ sudo apt-get install libssl-dev
 
 # phantomjs dependencies
 sudo apt-get install libqt4-dev libqtwebkit-dev qt4-qmake
+
+# dependencies introduced by onieric
+sudo apt-get install python-all-dev python-qt4-dev python-qt4
